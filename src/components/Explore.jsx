@@ -8,7 +8,7 @@ const Explore = () => {
 
       <div className="categories-container gap-8 relative w-[90%] min-h-[590px] flex items-center justify-center flex-wrap">
         <Link to={'Products'}>
-          <div className="cables-wires bg-red-100 category text-2xl p-3 font-semibold flex relative w-[380px] rounded-md h-[500px]">
+          <div className="cables-wires bg-red-100 category text-2xl p-3 font-semibold flex relative w-[350px] rounded-md h-[500px]">
             Cables and Wires
           </div>
         </Link>
