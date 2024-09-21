@@ -21,9 +21,9 @@ const Home = () => {
   // } , [carausel])
 
   return (
-    <div id='Home' className='Home-container min-h-[84vh] w-[100vw] m-auto flex flex-col items-center'>
+    <div id='Home' className='Home-container min-h-[50vh] w-[100vw] m-auto flex flex-col items-center'>
       {/* carausols */}
-      <div className="carausels-con flex-col gap-10 mb-16 flex items-center justify-center bg-blue-400 relative h-[600px] w-[88%] rounded-md">
+      <div className="carausels-con flex-col gap-10 mb-16 flex items-center justify-center bg-blue-400 relative h-[400px] w-[80%] rounded-md">
 
         {/* {
           <img src="https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-10-at-7.37.09-PM.jpeg" alt="" className=' rounded-md absolute h-[100%] w-[100%]' />

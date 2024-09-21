@@ -16,7 +16,7 @@ const ProductCard = ({id , img , title , desc , pData}) => {
                 <div className="title text-5xl font-bold text-left mb-3">{title}</div>
                {desc}
 
-               {
+               {/* {
                 toggle ? pData.map((e)=>{
                     return <div key={e.id} className='relative h-[100px] w-[100%] bg-red-800'>
                         <img src={e.img}></img>
@@ -27,7 +27,9 @@ const ProductCard = ({id , img , title , desc , pData}) => {
 
                {
                 toggle ? <div className="btn know-more p-2 mt-3 relative w-[130px] rounded-md" onClick={ShowId}> Hide </div> : <div className="btn know-more p-2 mt-3 relative w-[130px] rounded-md" onClick={ShowId}>Know More</div>
-               }
+               } */}
+                <div className="btn know-more p-2 mt-3 relative w-[130px] rounded-md" onClick={ShowId}> Know More </div>
+
 
             </div>
         </div>
