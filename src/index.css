@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --text-color : #FFB702;
+}
+
+.text-color{
+  color: var(--text-color);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  scroll-behavior: smooth;
+  scrollbar-width: 0;
+  overflow-x: hidden;
+}
+
+li a{
+  transition: all .1s linear;
+}
+
+li a:hover{
+  color: var(--text-color);
+  transform: scale(1.1);
+}
+
+.Home-container .carausels-con{
+  position: relative;
+  top: 80px;
+  /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url('https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-10-at-7.37.09-PM.jpeg');
+  /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-24-at-11.05.49-PM-768x390.jpeg"); */
+  /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("https://orflaxindia.com/wp-content/uploads/2023/08/img1-768x273.jpeg"); */
+  /* background: url("https://orflaxindia.com/wp-content/uploads/2023/08/img1-768x273.jpeg");  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.btn{
+  background: var(--text-color);
+  transition: all .1s ease;
+}
+
+.btn:hover{
+  background: white;
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
+}
+
+.cables-wires{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,  url('/cable.jpg');
+  background-size: cover;
+}
+
+.switches{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,  url('/switches.jpg');
+  background-size: cover;
+}
+
+.EPC{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,  url('/epc.jpg');
+  background-size: cover;
+}
+.category{
+  transition: all .1s ease;
+}
+
+.category:hover{
+  transform: scale(0.9);
+}
+
+.stats-container{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,  url('/statsbg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.Navbar-container{
+  /* background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),rgb(30, 30, 11); */
+  box-shadow: 0 4px 3px var(--text-color);
+  color: black;
+  backdrop-filter: blur(20px);
+}
+
+/* .stats-container{  
+  animation: animate ease;
+  animation-timeline: view();
+} */
+
+@keyframes animate {
+  from{
+    opacity: 0;
+    scale: 0;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.hamburger{
+  height: 30px;
+  width: 30px;
+  display: none;
+}
+
+
+/* ----------------------------------AFter SMALL SCREEN --------------------*/
+
+/* COntainer after Small Screen */
+.afterSmallScreen{
+  position: fixed;
+  z-index: 3;
+}
+
+/* Small Screen Container's ul */
+.afterSmallScreen-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: #1c1c1c;
+  flex-direction: column;
+  text-align: left;
+  font-size: 2rem;
+  gap: 30px;
+}
+
+
+/* Ul list of smallScreenNav */
+.afterSmallScreen-ul{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+/* List of smallscreenNav Li */
+.afterSmallScreen-nav li{
+  padding: 10px;
+  transition: all .1s ease;
+  border-radius: 10px;
+}
+
+.afterSmallScreen-nav li a{
+  color: white;
+}
+.afterSmallScreen-nav li a:hover{
+  color: var(--text-color);
+}
+
+.aboutPage{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('/aboutbg.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.productPage{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('/productbg.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contactPage{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url('/contact.jpg');
+  background-position: center;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+  .product-card{
+    flex-direction: column;
+  }
+
+  .item-sec {
+    display: none;
+  }
+  .hamburger{
+    display: flex;
+  }
+  .Navbar-container{
+    justify-content: space-between;
+  }
+  .call-btn{
+    display: none;
+  }
+  .hamburger{
+    color: var(--text-color);
+  }
+  .footer-sec-2{
+    justify-content: space-around;
+  }
+  .footer-icon {
+    display: none;
+  }
+}
