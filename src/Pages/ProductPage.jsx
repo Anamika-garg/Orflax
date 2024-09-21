@@ -12,7 +12,7 @@ const ProductPage = () => {
 
             <div className="content gap-6 flex flex-col w-[100%] relative min-h-[100vh]">
                 <h1 className='text-5xl font-bold mb-10 ml-12 mt-8 '>CABLES</h1>
-                <div className="products-cables w-[100%] relative min-h-[90vh] mb-4 rounded-md gap-16 flex flex-col flex-wrap">
+                <div className="products-cables w-[100%] relative min-h-[90vh] items-center justify-center mb-4 rounded-md gap-16 flex flex-col flex-wrap">
                     {
                         productData ? productData.map((e)=>{
                             return <ProductCard key={e.id} id={e.id} img={e.img} title={e.title} desc={e.desc} pData = {e.pData}/>
