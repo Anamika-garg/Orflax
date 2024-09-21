@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Carousel from './Carousel'
 
 
 const Home = () => {
@@ -8,7 +7,6 @@ const Home = () => {
     <div id='Home' className='Home-container min-h-[30vh] w-[100vw] m-auto flex flex-col items-center'>
       {/* carausols */}
       <div className="carausels-con flex-col gap-10 mb-16 flex items-center justify-center relative h-[500px] w-[100%] rounded-md">
-     {/* <Carousel/> */}
 
 
         {/* <h2 className="text-black font-semibold text-4xl">

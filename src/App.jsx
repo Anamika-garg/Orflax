@@ -11,7 +11,6 @@ import ProductPage from './Pages/ProductPage'
 import ContactPage from './Pages/ContactPage'
 import WhyUs from './components/WhyUs'
 import NeedHelp from './components/NeedHelp'
-import Carousel from './components/Carousel'
 
 const App = () => {
   return (
