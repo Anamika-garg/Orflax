@@ -8,7 +8,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='footer-container flex items-center text-white justify-center min-h-[40vh] w-[100vw] bg-zinc-900'>
+    <div className='footer-container flex items-center text-white justify-center min-h-[40vh] w-[100vw] bg-zinc-900 py-5'>
         <div className="footer flex flex-col relative min-h-[90%] w-[75%]">
             <div className="footer-sec-1 items-center justify-center flex w-[100%] relative min-h-[100px] gap-9">
                 <div className="logo flex items-center justify-center min-h-[100%] relative w-[20%]">
