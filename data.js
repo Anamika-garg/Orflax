@@ -170,3 +170,21 @@ export const productData = [
     }
     
 ]
+
+export const whyUs = [
+    {
+        id : 1,
+        title : 'PERFORMANCE AND RELIABILITY',
+        desc : 'Human Capital leverages research, analytics, and industry insights to help design and execute critical programs from business driven HR to innovative talent, leadership and change programs.'
+    },
+    {
+        id : 2,
+        title : 'BEST QUALITY',
+        desc : 'Works with senior executives to help them solve their toughest and most complex problems by bringing an approach to executable strategy that combines deep industry knowledge and insight.'
+    },
+    {
+        id : 3,
+        title : 'TECHNOLOGICAL DEVELOPMENT',
+        desc : 'Delivers solutions that help drive transformation, improve productivity and streamline business operations. Our practical, innovative solutions are linked to measurable goals to help our clients.'
+    }
+]

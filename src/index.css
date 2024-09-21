@@ -36,14 +36,33 @@ li a:hover {
   /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url('https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-10-at-7.37.09-PM.jpeg');
   /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-24-at-11.05.49-PM-768x390.jpeg"); */
   /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("https://orflaxindia.com/wp-content/uploads/2023/08/img1-768x273.jpeg"); */
-  background: url("https://orflaxindia.com/wp-content/uploads/2023/08/img1-768x273.jpeg");
+
+  background: url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-10-at-7.37.09-PM.jpeg");
   /* background-position: -4cm 1cm; */
   background-repeat: no-repeat;
-  /* background-size: 565px 385px; */
-  background-position: center;
   background-size: cover;
-  animation: animateBg 20s alternate infinite;
+  background-position: 0cm -12cm;
+  /* background-position: 0 -1cm; */
+  /* background-position: 0 5cm; */
+  /* background: url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-10-at-7.37.09-PM.jpeg"); */
 }
+/* 
+.main-heading{
+  position: relative;
+  padding: 10px;
+}
+
+.main-heading::after{
+  content: '';
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 3px;
+  display: flex;
+  width: 100%;
+  background: var(--text-color);
+}
+ */
 
 @keyframes animateBg{
   0% {
@@ -63,7 +82,6 @@ li a:hover {
   100% {
     background-repeat: no-repeat;
     /* background-size: 565px 385px; */
-    background: url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-10-at-7.37.09-PM.jpeg");
     background-position: center;
     background-size: cover;
   }

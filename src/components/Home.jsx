@@ -7,20 +7,7 @@ const Home = () => {
     <div id='Home' className='Home-container min-h-[50vh] w-[100vw] m-auto flex flex-col items-center'>
       {/* carausols */}
       <div className="carausels-con flex-col gap-10 mb-16 flex items-center justify-center bg-blue-400 relative h-[400px] w-[100%] rounded-md">
-
-        
-        {/* {
-          
-        } */}
-
-        {/* {
-          <img src="https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-24-at-11.05.49-PM-768x390.jpeg" alt="" className=' rounded-md absolute h-[100%] w-[100%]' />
-        } */}
-
-        {/* {
-          <img src="https://orflaxindia.com/wp-content/uploads/2023/08/img1-768x273.jpeg" alt="" className=' rounded-md absolute h-[100%] w-[100%]' />
-        } */}
-
+     
 
 
         {/* <h2 className="text-black font-semibold text-4xl">
@@ -33,6 +20,8 @@ const Home = () => {
           <a href="">Call Now</a>
         </div> */}
       </div>
+
+      {/* <div className="sideBar h-[220px] w-[70px] bg-blue-800"></div> */}
 
 
     </div>

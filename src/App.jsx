@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import AboutPage from './Pages/AboutPage'
 import ProductPage from './Pages/ProductPage'
 import ContactPage from './Pages/ContactPage'
+import WhyUs from './components/WhyUs'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
     <Home/>
     <Explore/>
     <About/>
+    <WhyUs/>
     <Stats/>
     <History/>
     {/* <AboutPage/> */}
