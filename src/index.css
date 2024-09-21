@@ -42,7 +42,7 @@ li a:hover {
   /* background-size: 565px 385px; */
   background-position: center;
   background-size: cover;
-  animation: animateBg 30s alternate infinite;
+  animation: animateBg 20s alternate infinite;
 }
 
 @keyframes animateBg{
