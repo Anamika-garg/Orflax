@@ -10,6 +10,8 @@ import AboutPage from './Pages/AboutPage'
 import ProductPage from './Pages/ProductPage'
 import ContactPage from './Pages/ContactPage'
 import WhyUs from './components/WhyUs'
+import NeedHelp from './components/NeedHelp'
+import Carousel from './components/Carousel'
 
 const App = () => {
   return (
@@ -21,6 +23,7 @@ const App = () => {
     <WhyUs/>
     <Stats/>
     <History/>
+    <NeedHelp/>
     {/* <AboutPage/> */}
     {/* <ProductPage/>
     <ContactPage/> */}

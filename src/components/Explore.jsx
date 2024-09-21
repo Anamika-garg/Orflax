@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 const Explore = () => {
   return (
-    <div id='Explore' className='container mt-9 text-white gap-7 min-h-[90vh] relative w-[100vw] m-auto flex items-center justify-center flex-col'>
+    <div id='Explore' className='container mt-9 text-white gap-7 min-h-[50vh] relative w-[100vw] m-auto flex items-center justify-center flex-col'>
       {/* Main Heading */}
       <h1 className="main-heading text-5xl font-bold border-b-2 p-5 text-color border-yellow-500"> Explore </h1>
 

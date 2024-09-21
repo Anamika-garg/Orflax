@@ -41,7 +41,7 @@ li a:hover {
   /* background-position: -4cm 1cm; */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0cm -12cm;
+  background-position: 0cm -20cm;
   /* background-position: 0 -1cm; */
   /* background-position: 0 5cm; */
   /* background: url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-10-at-7.37.09-PM.jpeg"); */
@@ -255,18 +255,19 @@ li a:hover {
     display: none;
   }
   .Home-container .carausels-con {
-    background-position: -15cm 1cm;
+    background-position: 10cm 11cm;
   }
 
 }
 
 @media screen and (max-width: 500px) {
   .Home-container .carausels-con {
-    background-position: -4cm 1cm;
+    background-position: 0cm 0cm;
     background-repeat: no-repeat;
-    background-size: 600px 385px;
+    /* background-size: 600px 385px; */
   }
   .cables-wires{
     width: 330px;
   }
 }
+

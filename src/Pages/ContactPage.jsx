@@ -11,7 +11,7 @@ const ContactPage = () => {
                 {/* <div className="main-heading text-color text-5xl uppercase font-bold">Contact US</div> */}
             </div>
 
-            <div className="gap-10 contact-sec-1 contact-content relative top-[80px] mb-9 flex p-5 items-center flex-col flex-wrap my-4 w-[100%] min-h-[80vh]">
+            <div className="gap-10 contact-sec-1 contact-content relative top-[80px] mb-9 flex p-5 items-center flex-col flex-wrap my-4 w-[100%] min-h-[40vh]">
                 <div className="main-heading text-center text-color text-5xl uppercase font-bold">Contact US</div>
                 <div className="button-sec w-[90%] relative min-h-[100px] flex items-center justify-center gap-10 flex-wrap">
                     <button className="contact-btn flex border-4 border-yellow-200 hover:bg-yellow-300 transition-all h-[60px] w-[210px] p-5 items-center justify-center font-semibold text-lg">Product Enquiry</button>
