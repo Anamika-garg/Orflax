@@ -14,7 +14,7 @@ export const data = [
         img : '/Countries.png',
         title : 'Countries we export our product'
     },{
-        id : 1,
+        id : 3,
         number : 12,
         img : '/Retailers-1.png',
         title : 'Retailers consuming our products'
@@ -31,7 +31,7 @@ export const productData = [
         desc : " Multistrand wires consist of multiple thin strands of wire twisted or braided together to form a single conductor. These wires offer greater flexibility compared to solid-core wires, making them ideal for applications that require bending or movement, such as in electronics, automotive, and robotics. The multiple strands also improve durability and conductivity by allowing better heat dissipation and reducing the risk of wire breakage. Due to their flexibility, multistrand wires are commonly used in areas where frequent motion or vibrations occur.",
         pData : [
             {
-                id : 1,
+                id : 1.1,
                 img : '../../public/multistrand-90.png',
             }
         ]

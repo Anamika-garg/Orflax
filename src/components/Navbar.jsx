@@ -31,7 +31,9 @@ const Navbar = () => {
                 </ul>
                 <ul className="call-sec flex items-center gap-3 uppercase h-[100%] relative w-[20%]">
                 <li className='hamburger' onClick={changeHandler}><Link to="#profile"> <GiHamburgerMenu className='hamburger' />  </Link></li>
-                    <li className='call-btn flex'><Link className='btn flex items-center justify-center text-white p-4 h-[40px] text-base font-semibold rounded-md' href="">Call Now </Link></li>
+                    <li className='call-btn flex'><Link className='btn flex items-center justify-center text-white p-4 h-[40px] text-base font-semibold rounded-md' href="" onClick= {()=>{
+                        window.open('tel:9313666292')
+                    }}>Call Now </Link></li>
                 </ul>
             </header>
 
