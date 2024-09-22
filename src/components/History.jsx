@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import vdo from '/bgvideo.mp4'
 const History = () => {
   return (
     <div id='History' className='History-container container gap-12 m-auto mt-10 min-h-[60vh] w-[100vw] flex flex-col justify-center items-center mb-4'>
@@ -10,6 +11,16 @@ const History = () => {
             <div className="btn w-[250px] h-[50px] rounded-md flex items-center justify-center relative bg-red-200 text-white text-semibold">
                Know More
             </div></Link>
+        </div>
+        <div className="video-con flex relative h-[30%] items-center justify-center w-[100%]">
+          <video
+            loop
+            autoPlay
+            className='relative h-[200px] w-[800px] flex'
+            muted
+          >
+            <source src={vdo} type="video/mp4" />
+          </video>
         </div>
     </div>
   )
