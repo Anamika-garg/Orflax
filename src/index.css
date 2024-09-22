@@ -37,14 +37,25 @@ li a:hover {
   /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-24-at-11.05.49-PM-768x390.jpeg"); */
   /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("https://orflaxindia.com/wp-content/uploads/2023/08/img1-768x273.jpeg"); */
 
-  background: url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-10-at-7.37.09-PM.jpeg");
+  background: url("/bg1.jpg");
   /* background-position: -4cm 1cm; */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0cm -20cm;
+  background-position: 0cm -10cm;
   /* background-position: 0 -1cm; */
   /* background-position: 0 5cm; */
   /* background: url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-10-at-7.37.09-PM.jpeg"); */
+  animation: bgAnimate 10s alternate infinite;
+}
+
+
+@keyframes bgAnimate{
+  0%{
+    background-position: 0cm -10cm;
+  }
+  100%{
+    background-position: 0cm -20cm;
+  }
 }
 /* 
 .main-heading{
@@ -64,26 +75,27 @@ li a:hover {
 }
  */
 
-@keyframes animateBg{
+ .chatbot{
+  /* background: url('/chatbot.png'); */
+  background-position: center;
+  background-size: cover;
+ }
+
+ .chatbot-con{
+  transition: all .1s ease;
+  animation: animateChat 3s alternate infinite;
+ }
+
+ .chat-chat iframe{
+  transition: all .1s ease;
+ }
+@keyframes animateChat{
   0% {
-    /* background-size: 565px 385px; */
-    background: url("https://orflaxindia.com/wp-content/uploads/2023/08/img1-768x273.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    transform: translateY(-10px);
   }
-  50% {
-    background: url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-24-at-11.05.49-PM-768x390.jpeg");
-    
-    background-position: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  
   100% {
-    background-repeat: no-repeat;
-    /* background-size: 565px 385px; */
-    background-position: center;
-    background-size: cover;
+    transform: translateY(5px);
   }
 }
 
@@ -255,15 +267,17 @@ li a:hover {
     display: none;
   }
   .Home-container .carausels-con {
-    background-position: 10cm 11cm;
+    background-position: 0cm -8cm;
+    animation: none;
   }
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 680px) {
   .Home-container .carausels-con {
     background-position: 0cm 0cm;
     background-repeat: no-repeat;
+    animation: none;
     /* background-size: 600px 385px; */
   }
   .cables-wires{
