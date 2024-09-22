@@ -21,7 +21,7 @@ const Navbar = () => {
             <header className="fixed z-30 Navbar-container flex items-center justify-center w-[100vw] h-[80px]">
                 <ul className="logo-sec flex items-center justify-center relative w-[30%] h-[100%]">
                     <li><a href="/">
-                        <img className='h-[50px] w-auto' src="https://orflaxindia.com/wp-content/uploads/2023/08/oipl-removebg-preview-208x74.png" alt="" /> </a></li>
+                        <img className='size-100' src="https://orflaxindia.com/wp-content/uploads/2023/08/oipl-removebg-preview-208x74.png" alt="" /> </a></li>
                 </ul>
                 <ul className="item-sec flex relative items-center justify-center w-[80%] h-[100%] gap-12 uppercase">
                     <li className='flex'><Link to="/About" className='p-4 text-base font-extrabold text-white rounded-md transition-all'>About us </Link></li>
