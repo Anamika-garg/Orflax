@@ -24,13 +24,13 @@ const Navbar = () => {
                         <img className='h-[50px] w-auto' src="https://orflaxindia.com/wp-content/uploads/2023/08/oipl-removebg-preview-208x74.png" alt="" /> </a></li>
                 </ul>
                 <ul className="item-sec flex relative items-center justify-center w-[80%] h-[100%] gap-12 uppercase">
-                    <li className='flex'><Link to="/About" className='p-4 text-base font-bold rounded-md transition-all'>About us </Link></li>
-                    <li className='flex'><Link to="/Products" className='p-4 text-base font-bold rounded-md transition-all'>Products </Link></li>
-                    <li className='flex'><Link to="/Contact" className='p-4 text-base font-bold rounded-md transition-all'>Contact us </Link></li>
+                    <li className='flex'><Link to="/About" className='p-4 text-base font-extrabold text-white rounded-md transition-all'>About us </Link></li>
+                    <li className='flex'><Link to="/Products" className='p-4 text-base font-extrabold text-white rounded-md transition-all'>Products </Link></li>
+                    <li className='flex'><Link to="/Contact" className='p-4 text-base font-extrabold text-white rounded-md transition-all'>Contact us </Link></li>
 
                 </ul>
                 <ul className="call-sec flex items-center gap-3 uppercase h-[100%] relative w-[20%]">
-                    <li className='hamburger' onClick={changeHandler}><Link to="#profile"> <GiHamburgerMenu className='hamburger' />  </Link></li>
+                    <li className='hamburger' onClick={changeHandler}><Link to=""> <GiHamburgerMenu className='hamburger' />  </Link></li>
                     <li className='call-btn flex'><Link className='btn flex items-center justify-center text-white p-4 h-[40px] text-base font-semibold rounded-md' href="" onClick={() => {
                         window.open('tel:9313666292')
                     }}>Call Now </Link></li>

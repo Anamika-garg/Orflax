@@ -63,11 +63,11 @@ const ContactPage = () => {
             }
 
             <div className="z-10 cursor-pointer chatbot-con flex items-center justify-center rounded-full mr-0 flex-col bottom-[10px] self-end fixed h-[180px] w-[150px]">
-                <div className="chatbot h-[100px] w-[100px] rounded-full relative bg-white">
+                <div className="chatbot h-[100px] w-[100px] rounded-full relative ">
                     <img src="/chatbot.png" alt="" onClick={changeVisibility} />
 
                 </div>
-                <div className="text text-center text-color ml-10 text-lg font-bold">Need Help?</div>
+                <div className="text text-center text-white ml-10 text-lg font-bold">Need Help?</div>
             </div>
 
         </div>

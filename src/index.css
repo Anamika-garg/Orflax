@@ -37,7 +37,7 @@ li a:hover {
   /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("https://orflaxindia.com/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-24-at-11.05.49-PM-768x390.jpeg"); */
   /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("https://orflaxindia.com/wp-content/uploads/2023/08/img1-768x273.jpeg"); */
 
-  background: url("/bg1.jpg");
+  /* background: url("/bg1.jpg"); */
   /* background-position: -4cm 1cm; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,12 +48,11 @@ li a:hover {
   animation: bgAnimate 10s alternate infinite;
 }
 
-
-@keyframes bgAnimate{
-  0%{
+@keyframes bgAnimate {
+  0% {
     background-position: 0cm -10cm;
   }
-  100%{
+  100% {
     background-position: 0cm -20cm;
   }
 }
@@ -75,25 +74,25 @@ li a:hover {
 }
  */
 
- .chatbot{
+.chatbot {
   /* background: url('/chatbot.png'); */
   background-position: center;
   background-size: cover;
- }
+}
 
- .chatbot-con{
-  transition: all .1s ease;
+.chatbot-con {
+  transition: all 0.1s ease;
   animation: animateChat 3s alternate infinite;
- }
+}
 
- .chat-chat iframe{
-  transition: all .1s ease;
- }
-@keyframes animateChat{
+.chat-chat iframe {
+  transition: all 0.1s ease;
+}
+@keyframes animateChat {
   0% {
     transform: translateY(-10px);
   }
-  
+
   100% {
     transform: translateY(5px);
   }
@@ -111,20 +110,32 @@ li a:hover {
 }
 
 .cables-wires {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/cable.jpg");
+  background: url("/cable.jpg");
+  opacity: 0.8;
+  color: black;
+  font-weight: bolder;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/cable.jpg"); */
   background-size: cover;
 }
 
 .switches {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/switches.jpg");
+  background: url("/switches.jpg");
+  opacity: 0.8;
+  color: black;
+  font-weight: bolder;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/switches.jpg"); */
   background-size: cover;
 }
 
 .EPC {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/epc.jpg");
+  background: url("/epc.jpg");
+  opacity: 0.8;
+  color: black;
+  font-weight: bolder;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/epc.jpg"); */
   background-size: cover;
 }
 .category {
@@ -269,6 +280,14 @@ li a:hover {
   .Home-container .carausels-con {
     background-position: 0cm -8cm;
     animation: none;
+    /* flex-direction: row-reverse; */
+  }
+  .Home-container .carausels-con .img-sec {
+    display: none;
+    width: 20%;
+  }
+  .Home-container .carausels-con .text-sec {
+    width: 80%;
   }
 
 }
@@ -280,8 +299,31 @@ li a:hover {
     animation: none;
     /* background-size: 600px 385px; */
   }
-  .cables-wires{
+  .cables-wires {
     width: 330px;
+  }
+  .Home-container .carausels-con .text-sec {
+    width: 100%;
+  }
+  .text-home{
+    font-size: 50px;
   }
 }
 
+body {
+  background: radial-gradient(
+    rgb(98, 98, 210),
+    rgb(98, 98, 210),
+    rgb(98, 98, 210),
+    rgb(5, 48, 123),
+    rgb(5, 48, 123),
+    rgb(98, 98, 210),
+    rgb(2, 58, 155),
+    rgb(98, 98, 210),
+    rgb(7, 57, 144)
+  );
+  color: white;
+}
+.product-container{
+  background: white;
+}
