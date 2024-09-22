@@ -31,7 +31,7 @@ const ProductCard = ({id , img , title , desc , pData}) => {
 
 
                {
-                toggle ? <div className="btn know-more p-2 mt-3 relative w-[130px] rounded-md" onClick={ShowId}> Hide </div> : <div className="btn know-more p-2 mt-3 relative w-[130px] rounded-md" onClick={ShowId}>Know More</div>
+                toggle ? <div className="btn know-more p-2 mt-3 relative w-[130px] rounded-md flex items-center justify-center" onClick={ShowId}> Hide </div> : <div className="btn know-more p-2 mt-3 relative w-[130px] rounded-md" onClick={ShowId}>Know More</div>
                }
                 {/* <div className="btn know-more p-2 mt-3 relative w-[130px] rounded-md" onClick={ShowId}> Know More </div> */}
 

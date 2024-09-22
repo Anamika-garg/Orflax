@@ -15,8 +15,8 @@ const ProductPage = () => {
   }
 
     return (
-        <div className='container product-container mb-8 w-[100vw] gap-24 min-h-[130vh] m-auto flex flex-col items-center'>
-            <div className="productPage font-semibold min-h-[250px] w-[100vw] top-[80px] main-heading flex items-center justify-center relative text-color text-5xl">
+        <div className='container top-[85px] relative product-container mb-36 w-[100vw] gap-24 min-h-[130vh] m-auto flex flex-col items-center'>
+            <div className="productPage font-semibold min-h-[250px] w-[100vw] main-heading flex items-center justify-center relative text-color text-5xl">
                 Products
             </div>
 
@@ -34,7 +34,7 @@ const ProductPage = () => {
                     <h1 className="main-heading text-color text-4xl font-bold text-center w-[100%]">
                         Our Innovations
                     </h1>
-                    <div className="text-2xl font-bold my-2 text-center">
+                    <div className="text-2xl font-bold my-2 text-center text-black">
                     ALUMINIUM ROUND CABLE, MULTIPLE CONDUCTOR
                     </div>
                     <div className="img-con flex relative w-[80%] items-center justify-center min-h-[500px] flex-wrap">

@@ -112,8 +112,8 @@ li a:hover {
 .cables-wires {
   background: url("/cable.jpg");
   opacity: 0.8;
-  color: black;
-  font-weight: bolder;
+  color: white;
+  font-weight: 1000;
   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/cable.jpg"); */
   background-size: cover;
@@ -122,8 +122,8 @@ li a:hover {
 .switches {
   background: url("/switches.jpg");
   opacity: 0.8;
-  color: black;
-  font-weight: bolder;
+  color: white;
+  font-weight: 1000;
   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/switches.jpg"); */
   background-size: cover;
@@ -132,8 +132,8 @@ li a:hover {
 .EPC {
   background: url("/epc.jpg");
   opacity: 0.8;
-  color: black;
-  font-weight: bolder;
+  color: white;
+  font-weight: 1000;
   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/epc.jpg"); */
   background-size: cover;
@@ -332,5 +332,7 @@ body {
 }
 .product-container{
   background: white;
+  box-shadow: 10px 10px 8px white,
+  10px 10px 8px white;
   /* background: linear-gradient(rgb(57, 57, 200),black); */
 }
