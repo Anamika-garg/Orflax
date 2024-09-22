@@ -1,6 +1,6 @@
-import React , {useState , useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -10,11 +10,11 @@ const Navbar = () => {
         setSmallScreen(!smallScreen);
     }
 
-    useEffect(()=>{
-        if(window.innerWidth > 800 ){
+    useEffect(() => {
+        if (window.innerWidth > 800) {
             setSmallScreen(false)
         }
-    } ,[])
+    }, [])
 
     return (
         <>
@@ -30,22 +30,25 @@ const Navbar = () => {
 
                 </ul>
                 <ul className="call-sec flex items-center gap-3 uppercase h-[100%] relative w-[20%]">
-                <li className='hamburger' onClick={changeHandler}><Link to="#profile"> <GiHamburgerMenu className='hamburger' />  </Link></li>
-                    <li className='call-btn flex'><Link className='btn flex items-center justify-center text-white p-4 h-[40px] text-base font-semibold rounded-md' href="" onClick= {()=>{
+                    <li className='hamburger' onClick={changeHandler}><Link to="#profile"> <GiHamburgerMenu className='hamburger' />  </Link></li>
+                    <li className='call-btn flex'><Link className='btn flex items-center justify-center text-white p-4 h-[40px] text-base font-semibold rounded-md' href="" onClick={() => {
                         window.open('tel:9313666292')
                     }}>Call Now </Link></li>
                 </ul>
             </header>
 
-            
+
             {
                 smallScreen ? <div className="container afterSmallScreen">
                     <nav onClick={changeHandler} className='afterSmallScreen-nav'>
                         <ul className='afterSmallScreen-ul'>
-                        <li onClick={changeHandler}> <Link to="/">Home </Link> </li>
-                        <li onClick={changeHandler}> <Link to="/About">About Us </Link> </li>
-                        <li onClick={changeHandler}> <Link to="Products">Products </Link> </li>
-                        <li onClick={changeHandler}> <Link to="Contact">Contact Us </Link> </li>
+                            <li onClick={changeHandler}> <Link to="/">Home </Link> </li>
+                            <li onClick={changeHandler}> <Link to="/About">About Us </Link> </li>
+                            <li onClick={changeHandler}> <Link to="Products">Products </Link> </li>
+                            <li onClick={changeHandler}> <Link to="Contact">Contact Us </Link> </li>
+                            <li className='call-btn flex'><Link className='btn flex items-center justify-center text-white p-4 h-[40px] text-base font-semibold rounded-md' href="" onClick={() => {
+                                window.open('tel:9313666292')
+                            }}>Call Now </Link></li>
                         </ul>
                     </nav>
                 </div> : <></>
