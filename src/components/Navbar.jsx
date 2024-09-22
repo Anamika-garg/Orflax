@@ -46,7 +46,7 @@ const Navbar = () => {
                             <li onClick={changeHandler}> <Link to="/About">About Us </Link> </li>
                             <li onClick={changeHandler}> <Link to="Products">Products </Link> </li>
                             <li onClick={changeHandler}> <Link to="Contact">Contact Us </Link> </li>
-                            <li className='call-btn flex'><Link className='btn flex items-center justify-center text-white p-4 h-[40px] text-base font-semibold rounded-md' href="" onClick={() => {
+                            <li className='call-btn-mobile flex'><Link className='btn flex items-center justify-center text-white p-4 h-[40px] text-base font-semibold rounded-md' href="" onClick={() => {
                                 window.open('tel:9313666292')
                             }}>Call Now </Link></li>
                         </ul>
