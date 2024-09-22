@@ -56,7 +56,7 @@ const ProductPage = () => {
                     <img src="/chatbot.png" alt="" onClick={changeVisibility} />
 
                 </div>
-                <div className="text text-center text-black ml-10 text-lg font-bold">Need Help?</div>
+                <div className="text text-center text-color ml-10 text-lg font-bold">Need Help?</div>
             </div>
 
         </div>

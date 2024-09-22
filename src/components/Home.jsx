@@ -34,7 +34,7 @@ const Home = () => {
           <img src="/chatbot.png" alt="" onClick={changeVisibility} />
           
         </div>
-        <div className="text text-center ml-10 text-lg font-extrabold text-black">Need Help?</div>
+        <div className="text text-center ml-10 text-lg font-extrabold text-color">Need Help?</div>
       </div>
       
     </div>
