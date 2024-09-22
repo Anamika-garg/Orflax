@@ -16,7 +16,7 @@ const Home = () => {
       <div className="carausels-con mb-16 flex items-center justify-around relative h-[500px] w-[90%] flex-wrap rounded-md">
         <div className="text-sec flex justify-center flex-col gap-10 ml-14 w-[30%] h-[100%] relative">
           <h1 className="text-home text-6xl font-bold capitalize text-left">Leading solution in wire and cable industry</h1>
-          {/* <h1 className="text-6xl text-color font-extrabold text-left uppercase">ORFLAX</h1> */}
+          <h1 className="visibleOnSmallScreen text-6xl text-color font-extrabold text-left uppercase">ORFLAX</h1>
           <div className="btn call-now-btn h-[50px] w-[150px] text-[20px] relative center text-left flex items-center justify-center rounded-md">Call Now</div>
         </div>
         <div className="img-sec flex justify-end w-[50%] h-[100%] relative">

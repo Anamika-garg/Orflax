@@ -290,6 +290,9 @@ li a:hover {
     width: 80%;
   }
 
+  .visibleOnSmallScreen{
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 680px) {

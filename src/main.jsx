@@ -12,6 +12,7 @@ import {createBrowserRouter  , RouterProvider} from 'react-router-dom';
 import AboutPage from './Pages/AboutPage.jsx'
 import ContactPage from './Pages/ContactPage.jsx'
 import ProductPage from './Pages/ProductPage.jsx'
+import DirectorMsg from './Pages/DirectorMsg.jsx'
 // import ReactDOM from 'react-dom';
 
 const router = createBrowserRouter([
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
       {path : '/About' , element : <AboutPage/>},
       {path : '/Contact' , element : <ContactPage/>},
       {path : '/Products' , element : <ProductPage/>},
+      {path : '/Director-msg' , element : <DirectorMsg/>},
     ]
   }
 ])

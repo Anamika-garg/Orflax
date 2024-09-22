@@ -27,6 +27,7 @@ const Navbar = () => {
                     <li className='flex'><Link to="/About" className='p-4 text-base font-extrabold text-white rounded-md transition-all'>About us </Link></li>
                     <li className='flex'><Link to="/Products" className='p-4 text-base font-extrabold text-white rounded-md transition-all'>Products </Link></li>
                     <li className='flex'><Link to="/Contact" className='p-4 text-base font-extrabold text-white rounded-md transition-all'>Contact us </Link></li>
+                    <li className='flex'><Link to="/Director-msg" className='p-4 text-base font-extrabold text-white rounded-md transition-all'>Director's Message </Link></li>
 
                 </ul>
                 <ul className="call-sec flex items-center gap-3 uppercase h-[100%] relative w-[20%]">
@@ -44,8 +45,9 @@ const Navbar = () => {
                         <ul className='afterSmallScreen-ul'>
                             <li onClick={changeHandler}> <Link to="/">Home </Link> </li>
                             <li onClick={changeHandler}> <Link to="/About">About Us </Link> </li>
-                            <li onClick={changeHandler}> <Link to="Products">Products </Link> </li>
-                            <li onClick={changeHandler}> <Link to="Contact">Contact Us </Link> </li>
+                            <li onClick={changeHandler}> <Link to="/Products">Products </Link> </li>
+                            <li onClick={changeHandler}> <Link to="/Contact">Contact Us </Link> </li>
+                            <li onClick={changeHandler}> <Link to="/Director-msg">Director's Message </Link> </li>
                             <li className='call-btn-mobile flex'><Link className='btn flex items-center text-base w-[230px] justify-center text-white p-4 h-[60px] font-semibold rounded-md' href="" onClick={() => {
                                 window.open('tel:9313666292')
                             }}>Call Now </Link></li>
