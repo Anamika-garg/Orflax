@@ -1,8 +1,16 @@
-import React from 'react'
+import React , {useState} from 'react';
 import ProductCard from '../components/ProductCard'
-import {productData} from '../../data'
+import { productData } from '../../data'
+import Chatbot from '../components/Chatbot';
 
 const ProductPage = () => {
+
+
+  const [chat, setChat] = useState(false);
+  const changeVisibility = () => {
+    console.log(chat)
+    setChat(!chat);
+  }
 
     return (
         <div className='container mb-8 w-[100vw] gap-24 min-h-[130vh] m-auto flex flex-col items-center'>
@@ -14,12 +22,26 @@ const ProductPage = () => {
                 <h1 className='text-5xl font-bold mb-10 ml-12 mt-8 '>CABLES</h1>
                 <div className="products-cables w-[100%] relative min-h-[90vh] items-center justify-center mb-4 rounded-md gap-16 flex flex-col flex-wrap">
                     {
-                        productData ? productData.map((e)=>{
-                            return <ProductCard key={e.id} id={e.id} img={e.img} title={e.title} desc={e.desc} pData = {e.pData}/>
+                        productData ? productData.map((e) => {
+                            return <ProductCard key={e.id} id={e.id} img={e.img} title={e.title} desc={e.desc} pData={e.pData} />
                         }) : <></>
                     }
                 </div>
             </div>
+
+            {/* Chatbot */}
+            {
+
+                chat ? <Chatbot /> : <></>
+            }
+            <div className="z-10 chatbot-con flex items-center justify-center rounded-full mr-0 flex-col bottom-[10px] self-end fixed h-[180px] w-[150px]">
+                <div className="chatbot h-[120px] w-[120px] rounded-full relative bg-white">
+                    <img src="/chatbot.png" alt="" onClick={changeVisibility} />
+
+                </div>
+                <div className="text text-center text-color ml-10 text-lg font-bold">Need Help?</div>
+            </div>
+
         </div>
     )
 }

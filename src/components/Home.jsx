@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Chatbot from './Chatbot';
 
 
 const Home = () => {
@@ -13,12 +14,7 @@ const Home = () => {
       {/* carausols */}
       {
 
-          chat ?  <div className='chat-chat flex fixed gap-3 flex-col z-20 h-[50%] right-[10px] top-[200px]'><iframe
-        src="https://www.chatbase.co/chatbot-iframe/xflJLbzn1KAxo6U9lL9ry"
-        width="100%"
-        style={{ height: '60%', minHeight: '400px' }}
-        title="Chatbot"
-      ></iframe></div> : <></>
+          chat ? <Chatbot/>  : <></>
       }
      
       <div className="carausels-con flex-col gap-10 mb-16 flex items-center justify-center relative h-[500px] w-[100%] rounded-md"></div>
