@@ -18,6 +18,7 @@ const ProductCard = ({id , img , title , desc , pData}) => {
 
                {/* {
                 toggle ? pData.map((e)=>{
+                    console.log(e)
                     return <div key={e.id} className='relative h-[100px] w-[100%] bg-red-800'>
                         <img src={e.img}></img>
                     </div>

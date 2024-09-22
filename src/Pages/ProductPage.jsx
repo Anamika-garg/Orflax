@@ -2,6 +2,8 @@ import React , {useState} from 'react';
 import ProductCard from '../components/ProductCard'
 import { productData } from '../../data'
 import Chatbot from '../components/Chatbot';
+import p1 from '/product1.png'
+import p2 from '/product2.png'
 
 const ProductPage = () => {
 
@@ -27,7 +29,22 @@ const ProductPage = () => {
                         }) : <></>
                     }
                 </div>
+
+                <div className="our-innovation flex w-100vw relative flex-col min-h-[60vh] items-center justify-around">
+                    <h1 className="main-heading text-color text-4xl font-bold text-center w-[100%]">
+                        Our Innovations
+                    </h1>
+                    <div className="text-2xl font-bold my-2 text-center">
+                    ALUMINIUM ROUND CABLE, MULTIPLE CONDUCTOR
+                    </div>
+                    <div className="img-con flex relative w-[80%] items-center justify-center min-h-[500px] flex-wrap">
+                        <img src={p1} alt="" className='relative h-[100%] w-[500px]' />
+                        <img src={p2} alt="" className='relative h-[100%] w-[500px]' />
+                    </div>
+                </div>
             </div>
+
+
 
             {/* Chatbot */}
             {

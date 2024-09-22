@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { IoLocationSharp } from "react-icons/io5";
 import { CgMail } from "react-icons/cg";
 import { FaPhoneAlt } from "react-icons/fa";
 
+import Chatbot from '../components/Chatbot';
 
 const ContactPage = () => {
+
+
+    const [chat, setChat] = useState(false);
+    const changeVisibility = () => {
+        console.log(chat)
+        setChat(!chat);
+    }
     return (
         <div className='container min-h-[100vh] w-[100vw] m-auto flex flex-col items-center mb-16'>
             <div className="contactPage flex items-center justify-center relative top-[83px] w-[100vw] min-h-[300px]">
@@ -47,6 +55,19 @@ const ContactPage = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
 
+            </div>
+            {/* Chatbot */}
+            {
+
+                chat ? <Chatbot /> : <></>
+            }
+
+            <div className="z-10 chatbot-con flex items-center justify-center rounded-full mr-0 flex-col bottom-[10px] self-end fixed h-[180px] w-[150px]">
+                <div className="chatbot h-[120px] w-[120px] rounded-full relative bg-white">
+                    <img src="/chatbot.png" alt="" onClick={changeVisibility} />
+
+                </div>
+                <div className="text text-center text-color ml-10 text-lg font-bold">Need Help?</div>
             </div>
 
         </div>

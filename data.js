@@ -32,7 +32,7 @@ export const productData = [
         pData : [
             {
                 id : 1,
-                img : 'https://orflaxindia.com/wp-content/uploads/2024/04/ORFLAX-EVO-SERIES-PRICE-LIST-_page-0001.jpg',
+                img : '../../public/multistrand-90.png',
             }
         ]
     },
