@@ -3,7 +3,7 @@ import React from 'react'
 const StatsCards = ({title , number , img}) => {
     return (
         <>
-            <div className="text-white cards flex items-center flex-col justify-center h-[300px] w-[300px]">
+            <div className="text-white font-bold cards flex items-center flex-col justify-center h-[300px] w-[300px]">
                 <div className="logo flex items-center justify-center elative h-[35%] w-[100%]">
                     <img src={img} className='size-15' alt="" />
                 </div>
