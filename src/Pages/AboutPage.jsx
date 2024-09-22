@@ -15,7 +15,7 @@ const AboutPage = () => {
       <div className="aboutPage w-[100vw] flex h-[200px] items-center justify-center relative main-heading text-color text-center text-5xl p-8 uppercase border-b-2 border-yellow-700 font-semibold">
         About Us
       </div>
-      <div className="container m-auto mt-8 text flex flex-col min-h-[90%] w-[100%] relative">
+      <div className="container m-auto mt-8 text flex flex-col min-h-[100%] w-[100%] relative">
 
       
         <p className='p-1 mx-8 my-1'>ORFLAX INDIA PVT LTD has emerged as one of the leading manufacturer and supplier of different type of electric wires & cables under the brand name of “ORFLAX”. We are an ISO 9001-2015 certified company and we have earned this valuable recognition in a short time period. We are engaged in the manufacture and supply of Power & Control Cables, LT XLPE/PVC Cables, Lighting Cables (House Wiring), Insulated Electrical Cables, PVC Electrical Cables and all types of industrial cables.</p>

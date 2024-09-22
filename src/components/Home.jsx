@@ -11,7 +11,7 @@ const Home = () => {
   }
 
   return (
-    <div id='Home' className='Home-container min-h-[30vh] w-[100vw] m-auto flex flex-col items-center'>
+    <div id='Home' className='Home-container min-h-[50vh] w-[100vw] m-auto flex flex-col items-center'>
       {/* carausols */}
       <div className="carausels-con mb-16 flex items-center justify-around relative h-[500px] w-[90%] flex-wrap rounded-md">
         <div className="text-sec flex justify-center flex-col gap-10 ml-14 w-[30%] h-[100%] relative">
@@ -20,7 +20,7 @@ const Home = () => {
           <div className="btn call-now-btn h-[50px] w-[150px] text-[20px] relative center text-left flex items-center justify-center rounded-md">Call Now</div>
         </div>
         <div className="img-sec flex justify-end w-[50%] h-[100%] relative">
-          <img src={bg} className='relative h-[100%] w-[120%] rotate-[-24deg]' alt="" />
+          <img src={bg} className='relative h-[100%] w-[120%] rotate-[-30deg]' alt="" />
         </div>
       </div>
       {
