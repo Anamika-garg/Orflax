@@ -45,8 +45,8 @@ const AboutPage = () => {
 
         chat ? <Chatbot /> : <></>
       }
-      <div className="z-10 chatbot-con flex items-center justify-center rounded-full mr-0 flex-col bottom-[10px] self-end fixed h-[180px] w-[150px]">
-        <div className="chatbot h-[120px] w-[120px] rounded-full relative bg-white">
+      <div className="z-10 cursor-pointer chatbot-con flex items-center justify-center rounded-full mr-0 flex-col bottom-[10px] self-end fixed h-[180px] w-[150px]">
+        <div className="chatbot h-[100px] w-[100px] rounded-full relative bg-white">
           <img src="/chatbot.png" alt="" onClick={changeVisibility} />
 
         </div>

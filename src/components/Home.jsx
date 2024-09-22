@@ -19,12 +19,12 @@ const Home = () => {
      
       <div className="carausels-con flex-col gap-10 mb-16 flex items-center justify-center relative h-[500px] w-[100%] rounded-md"></div>
 
-      <div className="z-10 chatbot-con flex items-center justify-center mr-6 flex-col bottom-[10px] self-end fixed h-[150px] w-[150px]">
-        <div className="chatbot h-[120px] w-[120px] rounded-full relative bg-white">
+      <div className="z-10 cursor-pointer chatbot-con flex items-center justify-center mr-6 flex-col bottom-[10px] self-end fixed h-[150px] w-[150px]">
+        <div className="chatbot h-[100px] w-[100px] rounded-full relative bg-white">
           <img src="/chatbot.png" alt="" onClick={changeVisibility} />
           
         </div>
-        <div className="text text-center text-color ml-10 text-lg font-bold">Need Help?</div>
+        <div className="text text-center ml-10 text-lg font-extrabold text-color">Need Help?</div>
       </div>
       
     </div>
