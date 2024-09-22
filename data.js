@@ -1,7 +1,6 @@
 import manu from '/manuf.png';
 import countries from '/Countries.png';
 import retailers from '/Retailers-1.png';
-
 export const data = [
     {
         id : 1,
@@ -32,7 +31,7 @@ export const productData = [
         pData : [
             {
                 id : 1.1,
-                img : '../../public/multistrand-90.png',
+                img : ['/productImg/multistarnd-90.png','/productImg/multistrand-45.png']
             }
         ]
     },
@@ -44,7 +43,7 @@ export const productData = [
         pData: [
             {
                 id: 2,
-                img: "",
+                img: ['/productImg/multicore round.png'],
             }
         ]
     },
@@ -56,7 +55,7 @@ export const productData = [
         pData: [
             {
                 id: 3,
-                img: "",
+                img: ['/productImg/Sumersible.png'],
             }
         ]
     },
@@ -68,7 +67,7 @@ export const productData = [
         pData: [
             {
                 id: 4,
-                img: "",
+                img: ['/productImg/aluminium round cable.png'],
             }
         ]
     },
@@ -80,7 +79,7 @@ export const productData = [
         pData: [
             {
                 id: 5,
-                img: "",
+                img: ['/productImg/aluminium cable with solid.png'],
             }
         ]
     },
@@ -92,7 +91,7 @@ export const productData = [
         pData: [
             {
                 id: 6,
-                img: "",
+                img: ['aluminium round cable with multiple conductor.png'],
             }
         ]
     },
@@ -104,7 +103,7 @@ export const productData = [
         pData: [
             {
                 id: 7,
-                img: "",
+                img: ['/productImg/coaxial cable with copper.png'],
             }
         ]
     },
@@ -116,7 +115,7 @@ export const productData = [
         pData: [
             {
                 id: 8,
-                img: "",
+                img: ['/productImg/Parallel Flat wire.png' , '/productImg/Parallel Flat wire.png'],
             }
         ]
     },
@@ -128,7 +127,7 @@ export const productData = [
         pData: [
             {
                 id: 9,
-                img: "",
+                img: ['/productImg/flexible copper wire.png' , '/productImg/flexible copper2.png'],
             }
         ]
     },
@@ -140,7 +139,7 @@ export const productData = [
         pData: [
             {
                 id: 10,
-                img: "",
+                img: ['/productImg/flexible alloy wire.png' , '/productImg/flexible alloy wire2png.png'],
             }
         ]
     },
@@ -152,7 +151,7 @@ export const productData = [
         pData: [
             {
                 id: 11,
-                img: "",
+                img: ['/productImg/Parallel Flat wire.png' , 'Parallel Flat wire2.png'],
             }
         ]
     },
@@ -164,7 +163,7 @@ export const productData = [
         pData: [
             {
                 id: 12,
-                img: "",
+                img: ['/productImg/copper twin flat.png'],
             }
         ]
     }

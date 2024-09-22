@@ -90,7 +90,7 @@ li a:hover {
 }
 @keyframes animateChat {
   0% {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
 
   100% {
